@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: nitin59/auth
+          image: sahilsunda/auth
           env:
             - name: JWT_KEY
               valueFrom:
